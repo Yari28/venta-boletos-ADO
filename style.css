@@ -1,0 +1,99 @@
+* {
+
+    padding: 0;
+    
+    margin: 0;
+    
+    box-sizing: border-box;
+    }
+
+    body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url('https://www.ado.com.mx/file/general/marcas_auto_platino.png'); 
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    min-height: 100vh;
+
+    } 
+    
+    Form {
+    
+    background-color: #f0f7f6d8;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    padding: 50px;
+    
+    width: 420px;
+    
+    box-shadow: 0 0 20px Irgba(0, 0, 0, 0.2);
+    
+    text-align: center;
+   }
+
+   form h2 {
+
+    font-size: 30px;
+    
+    color: #0a0c0cd5;
+    
+    margin-bottom: 35px;
+    
+    }
+    
+    input {
+    
+    padding: 17px;
+    
+    border-radius: 25px;
+    
+    background-color: rgb(100, 151, 218);
+    
+    border: 2px solid #0a090a;
+    
+    margin-bottom: 30px;
+    
+    outline: none;
+    
+    color: #0c0c0c;
+    
+    font-size: 16px;
+    
+    }
+
+.btn {
+
+    background-color:rgb(111, 171, 240)
+
+}
+
+.btn:hover {
+
+    background-color:rgb(113, 164, 230)
+
+}
+
+@media (max-width:991px) {
+
+    body {
+     
+       padding: 30px; 
+
+}
+
+form {
+     
+    width: 340px; 
+    
+}
+
+}
